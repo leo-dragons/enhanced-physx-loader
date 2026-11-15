@@ -1,0 +1,8 @@
+build/
+build-check/
+*.o
+tests/fluidtest_*
+tests/clothfasttest
+tests/clothspytest
+tests/*test_st
+tests/*test_mt
