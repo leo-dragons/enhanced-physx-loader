@@ -56,6 +56,14 @@ Tested on:
 
 No physics slowdowns and no crashes from the loader.
 
+Reported working by players:
+
+- AMD Radeon RX 7900 XTX — thanks to [@RRBernal](https://github.com/RRBernal) for the first report from a player
+  ([#1](https://github.com/leo-dragons/enhanced-physx-loader/issues/1)).
+
+Tried it on other hardware? Tell us in [Discussions](https://github.com/leo-dragons/enhanced-physx-loader/discussions),
+whether it worked or not.
+
 ## Install
 
 1. Download `EnhancedPhysXLoader-<version>-Setup.cmd` from [Releases](../../releases).
@@ -69,6 +77,16 @@ has the same contents with a classic `install.bat`. To uninstall, run the Setup.
 
 Linux / Proton: not tested yet. The installers are Windows-only; a manual install is described in
 `package/README.txt`.
+
+## Feedback and bug reports
+
+- **It works on my hardware / questions / ideas:** [Discussions](https://github.com/leo-dragons/enhanced-physx-loader/discussions).
+- **Something is wrong:** open an [issue](https://github.com/leo-dragons/enhanced-physx-loader/issues). The loader can
+  write logs that show what went wrong: set `Troubleshoot=1` in `Binaries\EnhancedPhysXLoader.ini`, play until the
+  problem happens, quit through the game's menu, and attach `EnhancedPhysXLoader.log`, `EnhancedPhysXLoader_frames.csv`
+  and `EnhancedPhysXLoader_profile.txt` from the `Binaries` folder (crash details are written into the `.log`). Set it
+  back to `0` afterwards, as the CSV grows large. Please mention your GPU, CPU, driver version and where in the game
+  it happened.
 
 ## Roadmap
 
