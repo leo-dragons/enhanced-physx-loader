@@ -67,9 +67,6 @@ No physics slowdowns and no crashes from the loader.
 The Setup.cmd is a plain text file: open it in Notepad to read exactly what it does. The `.zip` on the same page
 has the same contents with a classic `install.bat`. To uninstall, run the Setup.cmd again and choose **2**.
 
-The installer also adds an "Enhanced PhysX Loader" entry at the very end of the game's end credits (the credits
-files are backed up first; uninstalling removes it).
-
 Linux / Proton: not tested yet. The installers are Windows-only; a manual install is described in
 `package/README.txt`.
 
